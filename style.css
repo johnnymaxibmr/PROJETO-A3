@@ -186,3 +186,30 @@ img.inicio {
 .centro{
     text-align: center;
 }
+
+
+.outline{
+    background: rgb(40, 17, 173);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(68, 0, 255);
+    padding: 10px;
+    width: 280px;
+    height: 40px;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+button:active{
+    opacity: 0.8;
+}
+button[disabled]{
+    opacity: 0.7;
+}
+.error{
+    color: rgb(255, 166, 0);
+    display: none;
+    flex-direction: column;
+    padding: 5px 5px;
+    border-radius: 8px;
+}

@@ -64,9 +64,6 @@ a {
 a:visited{
     color: #344bd1;
 }
-a:active{
-    color: #9a05c7 ;
-}
 h1{
     text-align: center;
     color: #000000;
@@ -271,25 +268,36 @@ text-align: left;
 
 
 /*PAGAMENTO*/
-body{
-    background: #2813e7;
+div.pagamento{
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    width: fit-content;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 8px rgba(0,0,0,0.336);
+
+}
+div.pagamento2{
+    background: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: fit-content;
+    width: 100vh;
 }
-#login_form{
-background-color: white;
+
+/*background: rgb(255, 166, 0);
 display: flex;
-flex-direction: column;
+justify-content: center;
+align-items: center;
+width: fit-content;
+height: 450px;
 padding: 30px 40px;
 border-radius: 8px;
-gap: 15px;
 box-shadow: 5px 5px 8px rgba(0,0,0,0.336);
-width: fit-content;
-height: fit-content;
-
-}
+*/
 form{
     width: 300px;
 }

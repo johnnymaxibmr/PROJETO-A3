@@ -268,3 +268,55 @@ text-align: left;
     padding: 30px;
     border-radius: 30px;
 }
+
+
+/*PAGAMENTO*/
+body{
+    background: #2813e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#login_form{
+background-color: white;
+display: flex;
+flex-direction: column;
+padding: 30px 40px;
+border-radius: 8px;
+gap: 15px;
+box-shadow: 5px 5px 8px rgba(0,0,0,0.336);
+width: fit-content;
+height: fit-content;
+
+}
+form{
+    width: 300px;
+}
+input{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 3px;
+    cursor: text;
+    border: none;
+    border-bottom: 1px solid rgb(61, 29, 179);
+    outline: none;
+    
+}
+input, button {
+    padding: 10px;
+    width: -webkit-fill-available;
+    
+}
+button{
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.form-field{
+    margin-bottom: 10px;
+}
+.outline{
+    background: #2813e7;
+    color: white;
+}

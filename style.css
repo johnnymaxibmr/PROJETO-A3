@@ -141,7 +141,7 @@ img.inicio {
 }
 .dropbtn {
     background-color:transparent;
-    color:#058a13;
+    color:#ffffff;
     font-weight: bold;
     font-size: clamp(1.5rem, 2vw, 3rem);
     padding: 16px;
@@ -156,7 +156,7 @@ img.inicio {
     display: none;
     position: absolute;
     right: 0;
-    background-color: #9fe5a6;
+    background-color: #ffffff;
     min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -174,14 +174,11 @@ img.inicio {
     content: none;
 }
 .dropdown-content a:hover {
-    background-color: #058a13;
-    color: #9fe5a6;
+    background-color: #ffffff;
+    color: #55a3fc;
 }
 .dropdown:hover .dropdown-content {
     display: block;
-}
-.dropdown:hover .dropbtn {
-    background-color:  #9fe5a6;
 }
 .centro{
     text-align: center;
@@ -212,4 +209,62 @@ button[disabled]{
     flex-direction: column;
     padding: 5px 5px;
     border-radius: 8px;
+}
+
+#containerr{
+    display: inline-flex;
+    width: 400px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 30px;
+}
+div.anuncio img{
+max-width: 90%;
+height: auto;
+}
+div.anuncio > h1{
+margin:0% ;
+padding-top: 20px;
+padding-left: 35px;
+font-size: clamp(1.2rem, 1.5vw, 2.3rem);
+}
+div.anuncio > h2{
+padding-left: 35px;
+padding-bottom: 0px;
+margin: 0px;
+font-size: clamp(1.2rem, 2.2vw, 4rem);
+}
+div.anuncio > h3{
+padding-left: 35px;
+padding-top: 0px;
+margin: 0px;
+}
+div.descricao > h1{
+    font-size: clamp(1.5rem, 2.0vw, 2.5rem);
+    padding-top: 35px;
+    padding-left: 35px;
+    text-align: center;
+}
+div.descricao > h2{
+font-size: clamp(1.0rem, 1.5vw, 2rem);
+padding-left: 35px;
+margin: 0%;
+text-align: left;
+
+}
+div.descricao > p{
+color: #664;
+width: 1000px;
+font-size: 16px;
+padding-left: 35px;
+text-align: left;
+}
+#descricao{
+    display: inline-flex;
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 30px;
 }
